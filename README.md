@@ -16,3 +16,7 @@ Calculates weighted average grade from grades.csv.
 ## danish-mactro.ahk
 
 An autohotkey script for typing danish letters on a US keyboard.
+
+## markdown-toc-generator.ipynb
+
+An jupyter notebook script that targets a MD file, generates and inserts a table of contents.
