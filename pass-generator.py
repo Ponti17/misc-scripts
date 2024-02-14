@@ -5,7 +5,7 @@ numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 chars = ['!', '(', ')', '-', '_']
 
 passw = []
-pass_length = 10
+pass_length = 12
 
 for letter in range(0, pass_length-6):
     if random.randint(0, 1) == 0:
