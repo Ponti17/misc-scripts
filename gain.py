@@ -1,11 +1,10 @@
 import argparse
 import numpy as np
 
-parser = argparse.ArgumentParser(description="Gain Converter",
-                                 formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument("-r", "--ratio", action="store_true", help="Voltage/power gain as ratio")
-parser.add_argument("-d", "--db", action="store_true", help="Voltage/power gain in dB")
-parser.add_argument("-p", "--power", action="store_true", help="Power gain")
+parser = argparse.ArgumentParser(description="Gain Converter")
+parser.add_argument("-r", "--ratio", action="store_true", help="voltage/power gain as ratio (default of no option)")
+parser.add_argument("-d", "--db", action="store_true", help="voltage/power gain in dB")
+parser.add_argument("-p", "--power", action="store_true", help="power gain")
 parser.add_argument("gain")
 args = parser.parse_args()
 
