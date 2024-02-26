@@ -21,8 +21,8 @@ if args.ratio:
     gain = float(args.gain)
     print(f"Gain ratio: {gain}")
     print(f"Gain in dB: {np.round(prod * np.log10(gain),2)}")
-    
+
 elif args.db:
     gain = float(args.gain)
     print(f"Gain in dB: {gain}")
-    print(f"Gain ratio: {np.round(prod ** (gain / 10), 2):,}")
+    print(f"Gain ratio: {np.round(10 ** (gain / prod), 2):,}")
