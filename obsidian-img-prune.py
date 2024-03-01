@@ -50,5 +50,4 @@ while True:
         print("Invalid input.")   
 
 print("Exiting...")
-exit()
-    
+exit() 
